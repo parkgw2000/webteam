@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <title>Login</title>
+    <style>
+    * {
+        font-family: "Noto Sans KR", sans-serif;
+    }
+      body {
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .main-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main-container img {
+  max-width: 100px;
+  height: auto;
+}
+
+.main-container h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.login-container {
+  margin-bottom: 20px;
+}
+      .login-container {
+        padding: 40px;
+        border-radius: 8px;
+        width: 400px;
+        max-width: 100%;
+      }
+      .login-container h1 {
+        margin-bottom: 30px;
+        text-align: center;
+        color: #495057;
+      }
+      .login-form input[type="text"],
+      .login-form input[type="password"] {
+        width: 100%;
+        padding: 14px 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+      .login-form input[type="submit"] {
+        width: 100%;
+        padding: 14px;
+        background-color: #87ceeb;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+      }
+      .login-form input[type="submit"]:hover {
+        background-color: #0056b3;
+      }
+      .forgot-password {
+        margin-top: -10px;
+        margin-bottom: 10px;
+        text-align: right;
+      }
+      .forgot-password a {
+        color: #007bff;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      .forgot-password a + a {
+        margin-left: 10px;
+      }
+      head {
+        padding: 20px;
+      }
+      .login-form label {
+         font-weight: bold;
+        }
+        .singup-container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: right;
+      }
+      .singup-container a {
+        color: #007bff;
+        text-decoration: none;
+      }
+    </style>
+    <div class="head-container"></div>
+  </head>
+  <body>
+    <div class="main-container">
+        <img src="logo.png" alt="로고 이미지">
+        <h2>로그인</h2>
+      </div>
+    <div class="navigationGhost_itE6S" style="margin-bottom: 0px"></div>
+    <div class="login-container">
+      <form class="login-form" id="login-form">
+        <label for="username">아이디</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Username"
+          required
+        /><br />
+        <label for="password">비밀번호</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+          required
+        /><br />
+        <div class="forgot-password">
+          <a href="fdpw.html">비밀번호 찾기</a>
+        </div>
+        <input type="submit" value="로그인" />
+      </form>
+      <div class="singup-container">
+        아직 계정이 없으신가요?
+        <a href="signup.html">회원가입</a>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
